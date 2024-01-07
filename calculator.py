@@ -22,7 +22,7 @@ class Calculator:
 
     def print_cars(self):
         for car, year_price, in self.cars.items():
-            print(f"{car.name}:\t\t {year_price}")
+            print(f"{car.name}:\t\t {year_price:.2f}")
 
 
 class Car:
